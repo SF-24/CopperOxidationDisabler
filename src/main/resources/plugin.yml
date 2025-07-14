@@ -1,0 +1,8 @@
+name: CopperOxidationDisabler
+version: '1.0'
+main: com.mineshaft.copperOxidationDisabler.CopperOxidationDisabler
+api-version: '1.21'
+prefix: [ MineshaftRpgPlugin ]
+authors: [ Mineshaft ]
+description: A port of the RPG features, along with new features from "Another Rpg Plugin"
+website: github.com/SF-24
