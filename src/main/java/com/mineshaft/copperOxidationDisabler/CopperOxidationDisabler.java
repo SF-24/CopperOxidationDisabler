@@ -12,6 +12,8 @@ public final class CopperOxidationDisabler extends JavaPlugin {
         LogInfo("The \"Copper Oxidation Disabler\" by SF-24 has been enabled.");
         LogInfo("Please report bugs at github.com/SF-24");
         LogInfo("");
+
+        Bukkit.getPluginManager().registerEvents(new BlockListener(), this);
     }
 
     public static void LogInfo(String message) {
